@@ -9,9 +9,9 @@ html{
     /*permite deslizar cuando hago clic en los links del menu*/
     scroll-behavior: smooth;
 }
-
+/* Menu */
 .contenedor-header{
-    background: #463a0c;
+    background: #1e2326;
     position: fixed;
     width: 100%;
     top: 0;
@@ -29,7 +29,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: rgb(203, 200, 48);
+    color: #1CB698;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -45,14 +45,65 @@ html{
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: rgb(203, 200, 48);
+    color: #1CB698;
 }
 .nav-responsive{
-    background-color: rgb(203, 200, 48);
+    background-color: #1CB698;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     display: none;
 }
+/* Seccion Inicio */
+.inicio{
+    background: linear-gradient(to top, rgba(150, 155, 158, 0.8), rgba(150, 155, 158, .2)),
+    url(img/fondo.jpg);    
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.inicio .contenido-banner{
+    padding: 20px;
+    background-color: #1e2326;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.inicio .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid #1CB698;
+    display: block;
+    width: 200px;
+    margin: auto;
+    border-radius: 100px;
+}
+.inicio .contenido-banner h1{
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Righteous';
+}
+.inicio .contenido-banner h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+.inicio .contenido-banner .redes a{
 
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3ss;
+}
+.inicio .contenido-banner .redes a:hover{
+    background-color: #1CB698 ;
+}

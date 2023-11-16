@@ -325,41 +325,40 @@ html{
     0%{width: 0%;}
     100%{width: 80%;}
 }
-.skills .skill .jira{
+.skills .skill .scrum{
     width: 0%;
-    animation: 2s jira forwards;
+    animation: 2s scrum forwards;
 
 }
-@keyframes jira {
+@keyframes scrum {
     0%{width: 0%;}
     100%{width: 80%;}
 }
-.skills .skill .trello{
+.skills .skill .microservicios{
     width: 0%;
-    animation: 2s trello forwards;
+    animation: 2s microservicios forwards;
 
 }
-@keyframes trello {
+@keyframes microservicios {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+.skills .skill .aws{
+    width: 0%;
+    animation: 2s aws forwards;
+}
+@keyframes aws {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.skills .skill .html-css{
+    width: 0%;
+    animation: 2s html-css forwards;
+
+}
+@keyframes html-css {
     0%{width: 0%;}
     100%{width: 80%;}
-}
-.skills .skill .html{
-    width: 0%;
-    animation: 2s html forwards;
-
-}
-@keyframes html {
-    0%{width: 0%;}
-    100%{width: 90%;}
-}
-.skills .skill .css{
-    width: 0%;
-    animation: 2s css forwards;
-
-}
-@keyframes css {
-    0%{width: 0%;}
-    100%{width: 60%;}
 }
 .skills .skill .comunicacion{
     width: 0%;

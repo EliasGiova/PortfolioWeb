@@ -26,10 +26,10 @@ function efectoHabilidades() {
         habilidades[3].classList.add("javascript");
         habilidades[4].classList.add("git");
         habilidades[5].classList.add("mysql");
-        habilidades[6].classList.add("jira");
-        habilidades[7].classList.add("trello");
-        habilidades[8].classList.add("html");
-        habilidades[9].classList.add("css");
+        habilidades[6].classList.add("scrum");
+        habilidades[7].classList.add("microservicios");
+        habilidades[8].classList.add("aws");
+        habilidades[9].classList.add("html-css");
         habilidades[10].classList.add("comunicacion");
         habilidades[11].classList.add("equipo");
         habilidades[12].classList.add("creatividad");
